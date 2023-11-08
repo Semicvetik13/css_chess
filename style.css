@@ -1,0 +1,17 @@
+.CHESS tr:first-child td,tr:last-child td{
+   background-color: lightgreen !important;
+   height: 25px !important;
+}
+.CHESS td:first-child,td:last-child{
+   background-color: lightgreen !important;
+   width: 25px !important;
+}
+.CHESS tr:nth-child(even) td:nth-child(odd){
+   background-color: black;
+}
+.CHESS tr:nth-child(odd) td:nth-child(even){
+   background-color:black;
+}
+
+
+
